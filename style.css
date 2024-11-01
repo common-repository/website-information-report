@@ -1,0 +1,35 @@
+.title {
+    padding: 5px;
+}
+
+.title h1 {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-left: -5px;
+}
+
+.system_env {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid rgb(150, 148, 148);
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.system_env th {
+    text-align: left;
+    padding: 5px 80pc 5px 5px;
+}
+
+.system_env td {
+    padding: 5px 5pc 5px 5px;
+}
+
+.system_env td:nth-child(even) {
+    padding: 5px 25pc 5px 5px;
+}
+
+.system_env tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
